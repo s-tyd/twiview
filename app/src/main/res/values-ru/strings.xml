@@ -1,0 +1,306 @@
+<resources>
+    <string name="back">Назад</string>
+    <string name="close">Закрыть</string>
+    <string name="clear">Очистить</string>
+    <string name="retry">Повторить</string>
+    <string name="reload">Обновить</string>
+    <string name="settings">Настройки</string>
+    <string name="save">Сохранить</string>
+    <string name="cancel">Отмена</string>
+    <string name="auto">Авто</string>
+    <string name="off">Выкл.</string>
+    <string name="none">Нет</string>
+    <string name="all">Все</string>
+    <string name="size_small">Маленький</string>
+    <string name="size_medium">Средний</string>
+    <string name="size_large">Большой</string>
+    <string name="size_xlarge">Очень большой</string>
+    <string name="error_load_failed">Не удалось загрузить. Проверьте подключение.</string>
+    <string name="error_empty_response">Twitch вернул пустой ответ</string>
+    <string name="error_playback_token">Не удалось получить доступ к трансляции</string>
+    <string name="error_vod_unplayable">Это видео нельзя воспроизвести</string>
+
+    <string name="tab_following">Отслеживаемое</string>
+    <string name="tab_popular">Популярное</string>
+    <string name="tab_categories">Категории</string>
+    <string name="tab_search">Поиск</string>
+    <string name="follow_link_banner">Подключите отслеживаемые каналы Twitch, чтобы видеть их здесь</string>
+    <string name="follow_link">Подключить</string>
+    <string name="login_with_twitch">Войти через Twitch</string>
+    <string name="add_client_id">Добавить Client ID</string>
+    <string name="follow_empty">Вы пока не отслеживаете ни одного канала</string>
+    <string name="section_live_count">В эфире  %1$d</string>
+    <string name="section_offline_count">Не в сети  %1$d</string>
+    <string name="streams_empty">Трансляции не найдены</string>
+    <string name="search_placeholder">Каналы и категории</string>
+    <string name="section_channels">Каналы</string>
+    <string name="search_no_results">Ничего не найдено</string>
+    <string name="sort_viewers">Больше зрителей</string>
+    <string name="sort_newest">Недавно начатые</string>
+    <string name="sort_longest">Дольше в эфире</string>
+    <string name="sort_name">По имени</string>
+    <string name="sort_followed">По порядку подписки</string>
+
+    <string name="channel_not_found">Канал не найден</string>
+    <string name="last_live">Последний эфир: %1$s</string>
+    <string name="section_live">В эфире</string>
+    <string name="section_videos">Прошлые трансляции</string>
+    <string name="videos_empty">Прошлых трансляций нет</string>
+    <plurals name="views_short">
+        <item quantity="one">%1$s просмотр</item>
+        <item quantity="few">%1$s просмотра</item>
+        <item quantity="many">%1$s просмотров</item>
+        <item quantity="other">%1$s просмотра</item>
+    </plurals>
+
+    <plurals name="views">
+        <item quantity="one">%1$s просмотр</item>
+        <item quantity="few">%1$s просмотра</item>
+        <item quantity="many">%1$s просмотров</item>
+        <item quantity="other">%1$s просмотра</item>
+    </plurals>
+
+    <string name="offline">Не в сети</string>
+    <string name="videos">Видео</string>
+    <string name="rewind_10">Назад на 10 секунд</string>
+    <string name="forward_10">Вперёд на 10 секунд</string>
+    <string name="play">Воспроизвести</string>
+    <string name="pause">Пауза</string>
+    <string name="chat">Чат</string>
+    <string name="pip">Картинка в картинке</string>
+    <string name="toggle_fullscreen">Полноэкранный режим</string>
+    <string name="tab_playback">Видео</string>
+    <string name="tab_chat">Чат</string>
+    <string name="quality">Качество</string>
+    <string name="latency">Задержка</string>
+    <string name="latency_now">Отставание %1$.1f с</string>
+    <string name="latency_measuring">Измеряем задержку…</string>
+    <string name="latency_low">Низкая</string>
+    <string name="latency_normal">Обычная</string>
+    <string name="latency_stable">Стабильная</string>
+
+    <string name="chat_connecting">Подключение к чату…</string>
+    <string name="chat_jump_latest">Новые  ↓ %1$d</string>
+    <string name="chat_deleted">&lt;сообщение удалено&gt;</string>
+    <string name="ng_user_button">Блок</string>
+    <string name="user_messages_count">Сообщения пользователя  %1$d</string>
+    <string name="chat_send_placeholder">Отправить сообщение</string>
+    <string name="connecting">Подключение…</string>
+    <string name="send">Отправить</string>
+    <string name="channel_points">Баллы канала</string>
+    <string name="points_earned_here">+%1$s за этот просмотр</string>
+    <plurals name="points_bonus_count">
+        <item quantity="one"> · %1$d бонус</item>
+        <item quantity="few"> · %1$d бонуса</item>
+        <item quantity="many"> · %1$d бонусов</item>
+        <item quantity="other"> · %1$d бонуса</item>
+    </plurals>
+
+    <string name="danmaku">Бегущий чат</string>
+    <string name="danmaku_speed">Скорость</string>
+    <string name="speed_slow">Медленно</string>
+    <string name="speed_normal">Обычно</string>
+    <string name="speed_fast">Быстро</string>
+    <string name="text_size">Размер текста</string>
+    <string name="pixels">Точная настройка</string>
+    <string name="opacity">Непрозрачность</string>
+    <string name="danmaku_area">Область</string>
+    <string name="area_full">Весь экран</string>
+    <string name="area_top_half">Верхняя половина</string>
+    <string name="area_top_third">Верхняя треть</string>
+    <string name="danmaku_max">Сообщений на экране</string>
+    <string name="danmaku_limit">Лимит</string>
+    <string name="danmaku_fit">По экрану</string>
+    <string name="danmaku_unlimited">Без лимита</string>
+    <string name="danmaku_show_name">Показывать имена</string>
+    <string name="danmaku_name_color">Цвета имён из чата</string>
+    <string name="danmaku_hide_emoji">Пропускать сообщения с эмодзи</string>
+    <string name="danmaku_viewer">зритель%1$d</string>
+    <string-array name="danmaku_samples">
+        <item>ДАВАЙ ДАВАЙ</item>
+        <item>LUL</item>
+        <item>красава</item>
+        <item>GG</item>
+        <item>вы это видели??</item>
+        <item>КЛИПАЙТЕ</item>
+        <item>да ладно</item>
+        <item>база</item>
+        <item>милота</item>
+        <item>KEKW</item>
+        <item>o7</item>
+        <item>имба</item>
+        <item>обожаю этот момент</item>
+        <item>повтори</item>
+        <item>впервые тут!</item>
+        <item>АХАХАХАХАХАХ</item>
+        <item>ПОГНАЛИ</item>
+        <item>жесть</item>
+        <item>хорош</item>
+        <item>как это попало</item>
+        <item>гений</item>
+        <item>чего?</item>
+        <item>УУУУУУУУУУ</item>
+        <item>ты сможешь</item>
+        <item>ого</item>
+        <item>лучший стрим</item>
+        <item>это залетит</item>
+        <item>кто-нибудь клипните</item>
+        <item>я плачу</item>
+    </string-array>
+
+    <string name="account">Аккаунт</string>
+    <string name="not_logged_in">Вход не выполнен</string>
+    <string name="chat_display">Чат</string>
+    <string name="summary_text_size">Текст %1$d</string>
+    <string name="summary_no_names">Без имён</string>
+    <string name="summary_aligned_names">Имена выровнены</string>
+    <string name="summary_danmaku_on">Вкл. · %1$s · %2$d%%</string>
+    <string name="ng">Блокировка слов и пользователей</string>
+    <string name="summary_ng">Слова %1$d · Пользователи %2$d</string>
+    <string name="playback">Воспроизведение</string>
+    <string name="summary_playback">Качество %1$s · Задержка %2$s</string>
+    <string name="about">О приложении</string>
+    <string name="app_language">Язык</string>
+    <string name="app_language_system">Как в системе</string>
+    <string name="app_language_hint">Язык меню и надписей. Язык трансляций выбирается на вкладке «Популярное».</string>
+
+    <string name="default_quality">Качество по умолчанию</string>
+    <string name="default_quality_hint">Для мобильного интернета лучше 720p или ниже</string>
+    <string name="latency_hint">При нестабильном соединении низкая задержка может вызывать подтормаживания</string>
+
+    <string name="about_unofficial">Неофициальный клиент Twitch</string>
+
+    <string name="account_scope_full">Чат · Отслеживаемое · Бонусы подписки</string>
+    <string name="account_scope_no_follows">Чат · Бонусы подписки (отслеживаемое не подключено)</string>
+    <string name="connect_follows">Подключить отслеживаемое</string>
+    <string name="log_out">Выйти</string>
+    <string name="client_id_title">Client ID для отслеживаемого</string>
+    <string name="client_id_missing">Не задан (нужен для списка отслеживаемых)</string>
+    <string name="client_id_add">Добавить</string>
+    <string name="client_id_change">Изменить</string>
+    <string name="client_id_help">Зарегистрируйте приложение в Twitch Developer Console и введите выданный Client ID. В поле OAuth Redirect URL укажите %1$s.</string>
+    <string name="open_dev_console">Открыть Developer Console</string>
+    <string name="client_id_invalid">Нужно 30 строчных латинских букв и цифр</string>
+
+    <string name="login_title">Вход на twitch.tv</string>
+    <string name="login_verifying">Проверка…</string>
+    <string name="login_linking_follows">Подключение отслеживаемого…</string>
+    <string name="login_token_failed">Не удалось подтвердить вход</string>
+
+    <string name="hide_chat_input">Скрыть поле ввода чата</string>
+    <string name="names">Имена</string>
+    <string name="name_both">Отображаемое имя (ID)</string>
+    <string name="name_display">Отображаемое имя</string>
+    <string name="name_login">ID</string>
+    <string name="name_hidden">Скрыто</string>
+    <string name="name_color">Цвет</string>
+    <string name="name_color_twitch">Цвета Twitch</string>
+    <string name="name_color_auto">Автоцвета</string>
+    <string name="name_color_uniform">Один цвет</string>
+    <string name="brighten_names">Осветлять тёмные цвета</string>
+    <string name="align_names">Выравнивать имена</string>
+    <string name="name_width">Ширина имени</string>
+    <string name="name_width_value">%1$d симв.</string>
+    <string name="badges">Значки</string>
+    <string name="badges_first">Только первый</string>
+    <string name="badges_none">Скрыть</string>
+    <string name="appearance">Оформление</string>
+    <string name="line_spacing">Межстрочный интервал</string>
+    <string name="spacing_compact">Плотный</string>
+    <string name="spacing_standard">Обычный</string>
+    <string name="spacing_relaxed">Свободный</string>
+    <string name="dividers">Разделители</string>
+    <string name="dividers_zebra">Чередование строк</string>
+    <string name="dividers_line">Линии</string>
+    <string name="emotes">Смайлы</string>
+    <string name="emotes_image">Картинки</string>
+    <string name="emotes_text">Текст</string>
+    <string name="content">Содержимое</string>
+    <string name="timestamps">Время</string>
+    <string name="deleted_messages">Удалённые сообщения</string>
+    <string name="deleted_strike">Зачёркивать</string>
+    <string name="deleted_hide">Скрывать</string>
+    <string name="system_notices">Подписки и рейды</string>
+    <string name="highlights">Выделение</string>
+    <string name="highlight_first">Выделять первые сообщения</string>
+    <string name="highlight_mentions">Выделять \@упоминания</string>
+
+    <string name="preview_streamer">Стример</string>
+    <string name="preview_greeting">Всем привет Kappa</string>
+    <string name="preview_long_name">Зритель С Очень Длинным Именем</string>
+    <string name="preview_long_text">Сообщения выровнены даже при длинных именах</string>
+    <string name="preview_mention">\@%1$s глянь сюда</string>
+    <string name="preview_newcomer">новичок</string>
+    <string name="preview_first">Впервые пишу в этом чате!</string>
+    <string name="preview_deleted">Сообщение, которое удалили</string>
+    <string name="preview_thanks">спасибо!</string>
+    <string name="preview_sub">%1$s подписан(а) уже 12 месяцев!</string>
+    <string name="favorites">Избранное</string>
+    <string name="twitch_follows">Отслеживаемое на Twitch</string>
+    <string name="favorites_empty">Здесь появятся каналы из закладок</string>
+    <string name="favorite_add">Добавить в избранное</string>
+    <string name="favorite_remove">Убрать из избранного</string>
+    <string name="favorite_remove_confirm">Убрать %1$s из избранного?</string>
+    <string name="remove">Убрать</string>
+    <string name="follow_sync_hint_login">Войдите, чтобы видеть и каналы, которые вы отслеживаете на Twitch</string>
+    <string name="follow_sync_hint_client_id">Добавьте Client ID, чтобы видеть и каналы, которые вы отслеживаете на Twitch</string>
+    <string name="schedule">Расписание</string>
+    <string name="schedule_this_week">Эта неделя</string>
+    <string name="schedule_prev_week">Предыдущая неделя</string>
+    <string name="schedule_next_week">Следующая неделя</string>
+    <string name="schedule_week_empty">На этой неделе трансляций нет</string>
+
+    <string name="gestures">Жесты</string>
+    <string name="gesture_tap">Одиночное касание</string>
+    <string name="gesture_double_tap">Двойное касание</string>
+    <string name="gesture_hold">Долгое нажатие</string>
+    <string name="gesture_swipe">Свайп</string>
+    <string name="gesture_controls">Показать управление</string>
+    <string name="gesture_play_pause">Воспроизведение / пауза</string>
+    <string name="gesture_skip">Перемотка назад / вперёд</string>
+    <string name="gesture_fullscreen">Полноэкранный режим</string>
+    <string name="gesture_skip_seconds">Шаг перемотки</string>
+    <string name="gesture_hold_speed_action">Ускорение, пока удерживаете</string>
+    <string name="gesture_hold_speed">Скорость при удержании</string>
+    <string name="gesture_hold_vod_only">Работает только в прошлых трансляциях.</string>
+    <string name="gesture_swipe_left">Свайп вверх-вниз слева</string>
+    <string name="gesture_swipe_right">Свайп вверх-вниз справа</string>
+    <string name="brightness">Яркость</string>
+    <string name="volume">Громкость</string>
+    <string name="gesture_swipe_seek">Свайп по горизонтали для перемотки (прошлые трансляции)</string>
+    <string name="seconds_short">%1$d\u00A0с</string>
+
+    <string name="playback_speed">Скорость</string>
+    <string name="audio_only">Только звук</string>
+    <string name="sleep_timer">Таймер сна</string>
+    <string name="sleep_remaining">Остановка через %1$s</string>
+    <string name="minutes_short">%1$d\u00A0мин</string>
+    <string name="hours_short">%1$d\u00A0ч</string>
+    <string name="background_play">Фоновое воспроизведение</string>
+    <string name="background_always">Всегда</string>
+    <string name="background_headphones">Только с наушниками</string>
+    <string name="notification_channel_playback">Воспроизведение</string>
+    <string name="muted_segment">Фрагмент, заглушённый Twitch</string>
+    <string name="muted_skip_question">Пропустить фрагмент без звука?</string>
+    <string name="skip">Пропустить</string>
+    <string name="summary_gestures">Двойное касание %1$d\u00A0с · удержание %2$s×</string>
+
+    <string name="region_ja">Япония</string>
+    <string name="region_ko">Южная Корея</string>
+    <string name="region_pt">Бразилия</string>
+    <string name="region_de">Германия</string>
+    <string name="region_fr">Франция</string>
+    <string name="region_ru">Россия</string>
+    <string name="region_es">Испаноязычные</string>
+    <string name="region_it">Италия</string>
+    <string name="region_tr">Турция</string>
+    <string name="region_en">Англоязычные</string>
+    <string name="stream_order">Порядок в «Популярном»</string>
+    <string name="stream_order_reset">Сбросить порядок</string>
+    <string name="block_words">Слова</string>
+    <string name="block_users">Пользователи</string>
+    <string name="block_add">Добавить</string>
+    <string name="block_word_hint">Слово для блокировки</string>
+    <string name="block_user_hint">Имя пользователя</string>
+    <string name="block_empty">Пока пусто</string>
+</resources>

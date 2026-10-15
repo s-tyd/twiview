@@ -1,0 +1,303 @@
+<resources>
+    <string name="back">Retour</string>
+    <string name="close">Fermer</string>
+    <string name="clear">Effacer</string>
+    <string name="retry">Réessayer</string>
+    <string name="reload">Recharger</string>
+    <string name="settings">Paramètres</string>
+    <string name="save">Enregistrer</string>
+    <string name="cancel">Annuler</string>
+    <string name="auto">Auto</string>
+    <string name="off">Désactivé</string>
+    <string name="none">Aucun</string>
+    <string name="all">Tous</string>
+    <string name="size_small">Petit</string>
+    <string name="size_medium">Moyen</string>
+    <string name="size_large">Grand</string>
+    <string name="size_xlarge">Très grand</string>
+    <string name="error_load_failed">Chargement impossible. Vérifiez votre connexion.</string>
+    <string name="error_empty_response">Twitch a renvoyé une réponse vide</string>
+    <string name="error_playback_token">Impossible d\'accéder à ce stream</string>
+    <string name="error_vod_unplayable">Cette vidéo ne peut pas être lue</string>
+
+    <string name="tab_following">Suivis</string>
+    <string name="tab_popular">Populaire</string>
+    <string name="tab_categories">Catégories</string>
+    <string name="tab_search">Rechercher</string>
+    <string name="follow_link_banner">Connectez Twitch pour voir ici les chaînes que vous suivez</string>
+    <string name="follow_link">Connecter</string>
+    <string name="login_with_twitch">Se connecter avec Twitch</string>
+    <string name="add_client_id">Ajouter un Client ID</string>
+    <string name="follow_empty">Vous ne suivez encore aucune chaîne</string>
+    <string name="section_live_count">En direct  %1$d</string>
+    <string name="section_offline_count">Hors ligne  %1$d</string>
+    <string name="streams_empty">Aucune chaîne en direct</string>
+    <string name="search_placeholder">Rechercher chaînes et catégories</string>
+    <string name="section_channels">Chaînes</string>
+    <string name="search_no_results">Aucun résultat</string>
+    <string name="sort_viewers">Plus de spectateurs</string>
+    <string name="sort_newest">Lancés récemment</string>
+    <string name="sort_longest">En direct depuis longtemps</string>
+    <string name="sort_name">Nom</string>
+    <string name="sort_followed">Ordre de suivi</string>
+
+    <string name="channel_not_found">Chaîne introuvable</string>
+    <string name="last_live">Dernier live %1$s</string>
+    <string name="section_live">En direct</string>
+    <string name="section_videos">Diffusions précédentes</string>
+    <string name="videos_empty">Aucune diffusion précédente</string>
+    <plurals name="views_short">
+        <item quantity="one">%1$s vue</item>
+        <item quantity="many">%1$s vues</item>
+        <item quantity="other">%1$s vues</item>
+    </plurals>
+
+    <plurals name="views">
+        <item quantity="one">%1$s vue</item>
+        <item quantity="many">%1$s vues</item>
+        <item quantity="other">%1$s vues</item>
+    </plurals>
+
+    <string name="offline">Hors ligne</string>
+    <string name="videos">Vidéos</string>
+    <string name="rewind_10">Reculer de 10 secondes</string>
+    <string name="forward_10">Avancer de 10 secondes</string>
+    <string name="play">Lecture</string>
+    <string name="pause">Pause</string>
+    <string name="chat">Chat</string>
+    <string name="pip">Image dans l\'image</string>
+    <string name="toggle_fullscreen">Plein écran</string>
+    <string name="tab_playback">Lecture</string>
+    <string name="tab_chat">Chat</string>
+    <string name="quality">Qualité</string>
+    <string name="latency">Latence</string>
+    <string name="latency_now">%1$.1f s de retard sur le direct</string>
+    <string name="latency_measuring">Mesure de la latence…</string>
+    <string name="latency_low">Faible latence</string>
+    <string name="latency_normal">Standard</string>
+    <string name="latency_stable">Stable</string>
+
+    <string name="chat_connecting">Connexion au chat…</string>
+    <string name="chat_jump_latest">Récents  ↓ %1$d</string>
+    <string name="chat_deleted">&lt;message supprimé&gt;</string>
+    <string name="ng_user_button">Bloquer</string>
+    <string name="user_messages_count">Messages de cet utilisateur  %1$d</string>
+    <string name="chat_send_placeholder">Envoyer un message</string>
+    <string name="connecting">Connexion…</string>
+    <string name="send">Envoyer</string>
+    <string name="channel_points">Points de chaîne</string>
+    <string name="points_earned_here">+%1$s cette session</string>
+    <plurals name="points_bonus_count">
+        <item quantity="one"> · %1$d bonus récupéré</item>
+        <item quantity="many"> · %1$d bonus récupérés</item>
+        <item quantity="other"> · %1$d bonus récupérés</item>
+    </plurals>
+
+    <string name="danmaku">Chat défilant</string>
+    <string name="danmaku_speed">Vitesse</string>
+    <string name="speed_slow">Lente</string>
+    <string name="speed_normal">Normale</string>
+    <string name="speed_fast">Rapide</string>
+    <string name="text_size">Taille du texte</string>
+    <string name="pixels">Réglage fin</string>
+    <string name="opacity">Opacité</string>
+    <string name="danmaku_area">Zone</string>
+    <string name="area_full">Plein écran</string>
+    <string name="area_top_half">Moitié haute</string>
+    <string name="area_top_third">Tiers supérieur</string>
+    <string name="danmaku_max">Messages à l\'écran</string>
+    <string name="danmaku_limit">Limite</string>
+    <string name="danmaku_fit">Ajuster</string>
+    <string name="danmaku_unlimited">Illimité</string>
+    <string name="danmaku_show_name">Afficher les pseudos</string>
+    <string name="danmaku_name_color">Couleurs des pseudos du chat</string>
+    <string name="danmaku_hide_emoji">Ignorer les messages avec emoji</string>
+    <string name="danmaku_viewer">spectateur%1$d</string>
+    <string-array name="danmaku_samples">
+        <item>C\'EST PARTIIII</item>
+        <item>LUL</item>
+        <item>bien joué !</item>
+        <item>GG</item>
+        <item>vous avez vu ça ??</item>
+        <item>CLIP ÇA</item>
+        <item>pas possible</item>
+        <item>trop vrai</item>
+        <item>trop mignon</item>
+        <item>KEKW</item>
+        <item>o7</item>
+        <item>trop fort</item>
+        <item>j\'adore ce passage</item>
+        <item>remets-le</item>
+        <item>première fois ici !</item>
+        <item>MDRRRRRRRR</item>
+        <item>ÇA COMMENCE</item>
+        <item>dingue</item>
+        <item>propre</item>
+        <item>comment ça a touché</item>
+        <item>génie</item>
+        <item>quoi ?</item>
+        <item>OUAAAAAAAAIS</item>
+        <item>tu vas y arriver</item>
+        <item>la folie</item>
+        <item>meilleur stream</item>
+        <item>ça va percer</item>
+        <item>quelqu\'un clip ça</item>
+        <item>je pleure</item>
+    </string-array>
+
+    <string name="account">Compte</string>
+    <string name="not_logged_in">Non connecté</string>
+    <string name="chat_display">Chat</string>
+    <string name="summary_text_size">Texte %1$d</string>
+    <string name="summary_no_names">Sans pseudos</string>
+    <string name="summary_aligned_names">Pseudos alignés</string>
+    <string name="summary_danmaku_on">Activé · %1$s · %2$d%%</string>
+    <string name="ng">Mots et utilisateurs bloqués</string>
+    <string name="summary_ng">Mots %1$d · Utilisateurs %2$d</string>
+    <string name="playback">Lecture</string>
+    <string name="summary_playback">Qualité par défaut %1$s · Latence %2$s</string>
+    <string name="about">À propos</string>
+    <string name="app_language">Langue</string>
+    <string name="app_language_system">Langue de l\'appareil</string>
+    <string name="app_language_hint">Langue des menus et libellés. Le filtre de langue des streams se règle dans l\'onglet Populaire.</string>
+
+    <string name="default_quality">Qualité par défaut</string>
+    <string name="default_quality_hint">En données mobiles, 720p ou moins est conseillé</string>
+    <string name="latency_hint">La faible latence peut saccader si la connexion est instable</string>
+
+    <string name="about_unofficial">Un client Twitch non officiel</string>
+
+    <string name="account_scope_full">Chat · Suivis · Avantages d\'abonnement</string>
+    <string name="account_scope_no_follows">Chat · Avantages d\'abonnement (suivis non connectés)</string>
+    <string name="connect_follows">Connecter les suivis</string>
+    <string name="log_out">Se déconnecter</string>
+    <string name="client_id_title">Client ID pour les suivis</string>
+    <string name="client_id_missing">Non défini (requis pour la liste des suivis)</string>
+    <string name="client_id_add">Ajouter</string>
+    <string name="client_id_change">Modifier</string>
+    <string name="client_id_help">Enregistrez une application dans la Twitch Developer Console et saisissez le Client ID obtenu. Définissez l\'OAuth Redirect URL sur %1$s.</string>
+    <string name="open_dev_console">Ouvrir la Developer Console</string>
+    <string name="client_id_invalid">30 lettres minuscules et chiffres requis</string>
+
+    <string name="login_title">Se connecter à twitch.tv</string>
+    <string name="login_verifying">Vérification…</string>
+    <string name="login_linking_follows">Connexion des suivis…</string>
+    <string name="login_token_failed">Impossible de vérifier votre connexion</string>
+
+    <string name="hide_chat_input">Masquer la saisie du chat</string>
+    <string name="names">Pseudos</string>
+    <string name="name_both">Nom d\'affichage (ID)</string>
+    <string name="name_display">Nom d\'affichage</string>
+    <string name="name_login">ID</string>
+    <string name="name_hidden">Masqué</string>
+    <string name="name_color">Couleur</string>
+    <string name="name_color_twitch">Couleurs Twitch</string>
+    <string name="name_color_auto">Couleurs auto</string>
+    <string name="name_color_uniform">Couleur unique</string>
+    <string name="brighten_names">Éclaircir les couleurs sombres</string>
+    <string name="align_names">Aligner les pseudos</string>
+    <string name="name_width">Largeur des pseudos</string>
+    <string name="name_width_value">%1$d caractères</string>
+    <string name="badges">Badges</string>
+    <string name="badges_first">Le premier</string>
+    <string name="badges_none">Masquer</string>
+    <string name="appearance">Apparence</string>
+    <string name="line_spacing">Interligne</string>
+    <string name="spacing_compact">Compact</string>
+    <string name="spacing_standard">Par défaut</string>
+    <string name="spacing_relaxed">Aéré</string>
+    <string name="dividers">Séparateurs</string>
+    <string name="dividers_zebra">Lignes alternées</string>
+    <string name="dividers_line">Traits</string>
+    <string name="emotes">Emotes</string>
+    <string name="emotes_image">Images</string>
+    <string name="emotes_text">Texte</string>
+    <string name="content">Contenu</string>
+    <string name="timestamps">Horodatage</string>
+    <string name="deleted_messages">Messages supprimés</string>
+    <string name="deleted_strike">Barrés</string>
+    <string name="deleted_hide">Masquer</string>
+    <string name="system_notices">Alertes d\'abonnement et de raid</string>
+    <string name="highlights">Mises en avant</string>
+    <string name="highlight_first">Mettre en avant les premiers messages</string>
+    <string name="highlight_mentions">Mettre en avant les @mentions</string>
+
+    <string name="preview_streamer">Streamer</string>
+    <string name="preview_greeting">Salut le chat Kappa</string>
+    <string name="preview_long_name">Spectateur Au Pseudo Vraiment Très Long</string>
+    <string name="preview_long_text">Les messages restent alignés même avec un long pseudo</string>
+    <string name="preview_mention">\@%1$s regarde ça</string>
+    <string name="preview_newcomer">nouveau</string>
+    <string name="preview_first">Premier message ici !</string>
+    <string name="preview_deleted">Un message qui a été supprimé</string>
+    <string name="preview_thanks">merci !</string>
+    <string name="preview_sub">%1$s s\'est abonné pour 12 mois !</string>
+    <string name="favorites">Favoris</string>
+    <string name="twitch_follows">Suivis Twitch</string>
+    <string name="favorites_empty">Les chaînes ajoutées aux signets apparaîtront ici</string>
+    <string name="favorite_add">Ajouter aux favoris</string>
+    <string name="favorite_remove">Retirer des favoris</string>
+    <string name="favorite_remove_confirm">Retirer %1$s des favoris ?</string>
+    <string name="remove">Retirer</string>
+    <string name="follow_sync_hint_login">Connectez-vous pour voir aussi les chaînes que vous suivez sur Twitch</string>
+    <string name="follow_sync_hint_client_id">Ajoutez un Client ID pour voir aussi les chaînes que vous suivez sur Twitch</string>
+    <string name="schedule">Planning</string>
+    <string name="schedule_this_week">Cette semaine</string>
+    <string name="schedule_prev_week">Semaine précédente</string>
+    <string name="schedule_next_week">Semaine suivante</string>
+    <string name="schedule_week_empty">Aucun stream cette semaine</string>
+
+    <string name="gestures">Gestes</string>
+    <string name="gesture_tap">Appui simple</string>
+    <string name="gesture_double_tap">Double appui</string>
+    <string name="gesture_hold">Appui long</string>
+    <string name="gesture_swipe">Balayage</string>
+    <string name="gesture_controls">Afficher les commandes</string>
+    <string name="gesture_play_pause">Lecture / pause</string>
+    <string name="gesture_skip">Reculer / avancer</string>
+    <string name="gesture_fullscreen">Plein écran</string>
+    <string name="gesture_skip_seconds">Durée du saut</string>
+    <string name="gesture_hold_speed_action">Accélérer tant que l\'appui dure</string>
+    <string name="gesture_hold_speed">Vitesse pendant l\'appui</string>
+    <string name="gesture_hold_vod_only">Uniquement sur les diffusions précédentes.</string>
+    <string name="gesture_swipe_left">Balayage vertical à gauche</string>
+    <string name="gesture_swipe_right">Balayage vertical à droite</string>
+    <string name="brightness">Luminosité</string>
+    <string name="volume">Volume</string>
+    <string name="gesture_swipe_seek">Balayage horizontal pour naviguer (diffusions précédentes)</string>
+    <string name="seconds_short">%1$d\u00A0s</string>
+
+    <string name="playback_speed">Vitesse</string>
+    <string name="audio_only">Audio uniquement</string>
+    <string name="sleep_timer">Minuteur de veille</string>
+    <string name="sleep_remaining">Arrêt dans %1$s</string>
+    <string name="minutes_short">%1$d\u00A0min</string>
+    <string name="hours_short">%1$d\u00A0h</string>
+    <string name="background_play">Lecture en arrière-plan</string>
+    <string name="background_always">Toujours</string>
+    <string name="background_headphones">Avec écouteurs uniquement</string>
+    <string name="notification_channel_playback">Lecture</string>
+    <string name="muted_segment">Passage coupé par Twitch</string>
+    <string name="muted_skip_question">Passer le passage coupé\u00A0?</string>
+    <string name="skip">Passer</string>
+    <string name="summary_gestures">Double appui %1$d\u00A0s · appui long %2$s×</string>
+
+    <string name="region_ja">Japon</string>
+    <string name="region_ko">Corée du Sud</string>
+    <string name="region_pt">Brésil</string>
+    <string name="region_de">Allemagne</string>
+    <string name="region_fr">France</string>
+    <string name="region_ru">Russie</string>
+    <string name="region_es">Hispanophones</string>
+    <string name="region_it">Italie</string>
+    <string name="region_tr">Turquie</string>
+    <string name="region_en">Anglophones</string>
+    <string name="stream_order">Ordre dans Populaire</string>
+    <string name="stream_order_reset">Rétablir l\'ordre</string>
+    <string name="block_words">Mots</string>
+    <string name="block_users">Utilisateurs</string>
+    <string name="block_add">Ajouter</string>
+    <string name="block_word_hint">Mot à bloquer</string>
+    <string name="block_user_hint">Nom d\'utilisateur</string>
+    <string name="block_empty">Rien pour l\'instant</string>
+</resources>

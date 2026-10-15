@@ -1,0 +1,300 @@
+<resources>
+    <string name="back">Geri</string>
+    <string name="close">Kapat</string>
+    <string name="clear">Temizle</string>
+    <string name="retry">Tekrar dene</string>
+    <string name="reload">Yenile</string>
+    <string name="settings">Ayarlar</string>
+    <string name="save">Kaydet</string>
+    <string name="cancel">İptal</string>
+    <string name="auto">Otomatik</string>
+    <string name="off">Kapalı</string>
+    <string name="none">Yok</string>
+    <string name="all">Tümü</string>
+    <string name="size_small">Küçük</string>
+    <string name="size_medium">Orta</string>
+    <string name="size_large">Büyük</string>
+    <string name="size_xlarge">Çok büyük</string>
+    <string name="error_load_failed">Yüklenemedi. Bağlantını kontrol et.</string>
+    <string name="error_empty_response">Twitch boş yanıt gönderdi</string>
+    <string name="error_playback_token">Bu yayına erişilemedi</string>
+    <string name="error_vod_unplayable">Bu video oynatılamıyor</string>
+
+    <string name="tab_following">Takip</string>
+    <string name="tab_popular">Popüler</string>
+    <string name="tab_categories">Kategoriler</string>
+    <string name="tab_search">Ara</string>
+    <string name="follow_link_banner">Twitch\'te takip ettiğin kanalları burada görmek için bağla</string>
+    <string name="follow_link">Bağla</string>
+    <string name="login_with_twitch">Twitch ile giriş yap</string>
+    <string name="add_client_id">Client ID ekle</string>
+    <string name="follow_empty">Henüz hiçbir kanalı takip etmiyorsun</string>
+    <string name="section_live_count">Canlı  %1$d</string>
+    <string name="section_offline_count">Çevrimdışı  %1$d</string>
+    <string name="streams_empty">Canlı kanal bulunamadı</string>
+    <string name="search_placeholder">Kanal ve kategori ara</string>
+    <string name="section_channels">Kanallar</string>
+    <string name="search_no_results">Sonuç yok</string>
+    <string name="sort_viewers">En çok izlenen</string>
+    <string name="sort_newest">Yeni başlayan</string>
+    <string name="sort_longest">En uzun süredir canlı</string>
+    <string name="sort_name">Ad</string>
+    <string name="sort_followed">Takip sırası</string>
+
+    <string name="channel_not_found">Kanal bulunamadı</string>
+    <string name="last_live">Son yayın: %1$s</string>
+    <string name="section_live">Canlı</string>
+    <string name="section_videos">Geçmiş Yayınlar</string>
+    <string name="videos_empty">Geçmiş yayın yok</string>
+    <plurals name="views_short">
+        <item quantity="one">%1$s görüntüleme</item>
+        <item quantity="other">%1$s görüntüleme</item>
+    </plurals>
+
+    <plurals name="views">
+        <item quantity="one">%1$s görüntüleme</item>
+        <item quantity="other">%1$s görüntüleme</item>
+    </plurals>
+
+    <string name="offline">Çevrimdışı</string>
+    <string name="videos">Videolar</string>
+    <string name="rewind_10">10 saniye geri</string>
+    <string name="forward_10">10 saniye ileri</string>
+    <string name="play">Oynat</string>
+    <string name="pause">Duraklat</string>
+    <string name="chat">Sohbet</string>
+    <string name="pip">Resim içinde resim</string>
+    <string name="toggle_fullscreen">Tam ekran</string>
+    <string name="tab_playback">Oynatma</string>
+    <string name="tab_chat">Sohbet</string>
+    <string name="quality">Kalite</string>
+    <string name="latency">Gecikme</string>
+    <string name="latency_now">%1$.1f sn gecikme</string>
+    <string name="latency_measuring">Gecikme ölçülüyor…</string>
+    <string name="latency_low">Düşük gecikme</string>
+    <string name="latency_normal">Standart</string>
+    <string name="latency_stable">Kararlı</string>
+
+    <string name="chat_connecting">Sohbete bağlanılıyor…</string>
+    <string name="chat_jump_latest">En yeni  ↓ %1$d</string>
+    <string name="chat_deleted">&lt;mesaj silindi&gt;</string>
+    <string name="ng_user_button">Engelle</string>
+    <string name="user_messages_count">Bu kullanıcının mesajları  %1$d</string>
+    <string name="chat_send_placeholder">Mesaj gönder</string>
+    <string name="connecting">Bağlanılıyor…</string>
+    <string name="send">Gönder</string>
+    <string name="channel_points">Kanal Puanları</string>
+    <string name="points_earned_here">Bu oturumda +%1$s</string>
+    <plurals name="points_bonus_count">
+        <item quantity="one"> · %1$d bonus alındı</item>
+        <item quantity="other"> · %1$d bonus alındı</item>
+    </plurals>
+
+    <string name="danmaku">Kayan sohbet</string>
+    <string name="danmaku_speed">Hız</string>
+    <string name="speed_slow">Yavaş</string>
+    <string name="speed_normal">Normal</string>
+    <string name="speed_fast">Hızlı</string>
+    <string name="text_size">Yazı boyutu</string>
+    <string name="pixels">İnce ayar</string>
+    <string name="opacity">Opaklık</string>
+    <string name="danmaku_area">Alan</string>
+    <string name="area_full">Tam ekran</string>
+    <string name="area_top_half">Üst yarı</string>
+    <string name="area_top_third">Üst üçte bir</string>
+    <string name="danmaku_max">Ekrandaki mesaj sayısı</string>
+    <string name="danmaku_limit">Sınır</string>
+    <string name="danmaku_fit">Ekrana sığdır</string>
+    <string name="danmaku_unlimited">Sınırsız</string>
+    <string name="danmaku_show_name">Kullanıcı adlarını göster</string>
+    <string name="danmaku_name_color">Sohbetteki ad renklerini kullan</string>
+    <string name="danmaku_hide_emoji">Emoji içeren mesajları atla</string>
+    <string name="danmaku_viewer">izleyici%1$d</string>
+    <string-array name="danmaku_samples">
+        <item>HADİ BEEE</item>
+        <item>LUL</item>
+        <item>güzel!</item>
+        <item>GG</item>
+        <item>gördünüz mü??</item>
+        <item>KLİPLEYİN</item>
+        <item>yok artık</item>
+        <item>aynen</item>
+        <item>çok tatlı</item>
+        <item>KEKW</item>
+        <item>o7</item>
+        <item>çok güçlü</item>
+        <item>bu kısma bayılıyorum</item>
+        <item>bi daha göster</item>
+        <item>ilk defa geldim!</item>
+        <item>SKSKSKSKSKSKSK</item>
+        <item>BAŞLIYORUZ</item>
+        <item>delilik</item>
+        <item>helal</item>
+        <item>o nasıl vurdu ya</item>
+        <item>adam dahi</item>
+        <item>ne?</item>
+        <item>OHAAAAAAAAA</item>
+        <item>yaparsın</item>
+        <item>vay be</item>
+        <item>en iyi yayın</item>
+        <item>bu patlar</item>
+        <item>biri kliplesin</item>
+        <item>ağlıyorum</item>
+    </string-array>
+
+    <string name="account">Hesap</string>
+    <string name="not_logged_in">Giriş yapılmadı</string>
+    <string name="chat_display">Sohbet</string>
+    <string name="summary_text_size">Yazı %1$d</string>
+    <string name="summary_no_names">Ad yok</string>
+    <string name="summary_aligned_names">Hizalı adlar</string>
+    <string name="summary_danmaku_on">Açık · %1$s · %%%2$d</string>
+    <string name="ng">Engellenen kelimeler ve kullanıcılar</string>
+    <string name="summary_ng">Kelime %1$d · Kullanıcı %2$d</string>
+    <string name="playback">Oynatma</string>
+    <string name="summary_playback">Varsayılan kalite %1$s · Gecikme %2$s</string>
+    <string name="about">Hakkında</string>
+    <string name="app_language">Dil</string>
+    <string name="app_language_system">Cihaz varsayılanı</string>
+    <string name="app_language_hint">Menü ve etiketlerin dili. Yayın dili filtresi Popüler sekmesinden ayarlanır.</string>
+
+    <string name="default_quality">Varsayılan kalite</string>
+    <string name="default_quality_hint">Mobil veride 720p veya altı iyi bir seçim</string>
+    <string name="latency_hint">Bağlantı kararsızsa düşük gecikmede takılmalar olabilir</string>
+
+    <string name="about_unofficial">Resmi olmayan bir Twitch istemcisi</string>
+
+    <string name="account_scope_full">Sohbet · Takip · Abonelik avantajları</string>
+    <string name="account_scope_no_follows">Sohbet · Abonelik avantajları (takip bağlı değil)</string>
+    <string name="connect_follows">Takipleri bağla</string>
+    <string name="log_out">Çıkış yap</string>
+    <string name="client_id_title">Takipler için Client ID</string>
+    <string name="client_id_missing">Ayarlanmadı (takip listesi için gerekli)</string>
+    <string name="client_id_add">Ekle</string>
+    <string name="client_id_change">Değiştir</string>
+    <string name="client_id_help">Twitch Developer Console\'da bir uygulama kaydet ve verilen Client ID\'yi gir. OAuth Redirect URL olarak %1$s ayarla.</string>
+    <string name="open_dev_console">Developer Console\'u aç</string>
+    <string name="client_id_invalid">30 küçük harf ve rakamdan oluşmalı</string>
+
+    <string name="login_title">twitch.tv\'ye giriş yap</string>
+    <string name="login_verifying">Doğrulanıyor…</string>
+    <string name="login_linking_follows">Takipler bağlanıyor…</string>
+    <string name="login_token_failed">Giriş doğrulanamadı</string>
+
+    <string name="hide_chat_input">Sohbet giriş alanını gizle</string>
+    <string name="names">Adlar</string>
+    <string name="name_both">Görünen ad (ID)</string>
+    <string name="name_display">Görünen ad</string>
+    <string name="name_login">ID</string>
+    <string name="name_hidden">Gizli</string>
+    <string name="name_color">Renk</string>
+    <string name="name_color_twitch">Twitch renkleri</string>
+    <string name="name_color_auto">Otomatik renkler</string>
+    <string name="name_color_uniform">Tek renk</string>
+    <string name="brighten_names">Koyu renkleri aç</string>
+    <string name="align_names">Adları hizala</string>
+    <string name="name_width">Ad genişliği</string>
+    <string name="name_width_value">%1$d karakter</string>
+    <string name="badges">Rozetler</string>
+    <string name="badges_first">Yalnızca ilki</string>
+    <string name="badges_none">Gizle</string>
+    <string name="appearance">Görünüm</string>
+    <string name="line_spacing">Satır aralığı</string>
+    <string name="spacing_compact">Sıkı</string>
+    <string name="spacing_standard">Varsayılan</string>
+    <string name="spacing_relaxed">Geniş</string>
+    <string name="dividers">Ayırıcılar</string>
+    <string name="dividers_zebra">Dönüşümlü satırlar</string>
+    <string name="dividers_line">Çizgiler</string>
+    <string name="emotes">İfadeler</string>
+    <string name="emotes_image">Görsel</string>
+    <string name="emotes_text">Metin</string>
+    <string name="content">İçerik</string>
+    <string name="timestamps">Zaman damgaları</string>
+    <string name="deleted_messages">Silinen mesajlar</string>
+    <string name="deleted_strike">Üstü çizili</string>
+    <string name="deleted_hide">Gizle</string>
+    <string name="system_notices">Abonelik ve baskın bildirimleri</string>
+    <string name="highlights">Vurgular</string>
+    <string name="highlight_first">İlk kez yazanları vurgula</string>
+    <string name="highlight_mentions">\@bahsetmeleri vurgula</string>
+
+    <string name="preview_streamer">Yayıncı</string>
+    <string name="preview_greeting">Selam chat Kappa</string>
+    <string name="preview_long_name">Adı Çok Ama Çok Uzun Bir İzleyici</string>
+    <string name="preview_long_text">Adlar uzun olsa da mesajlar hizalı kalır</string>
+    <string name="preview_mention">\@%1$s şuna bak</string>
+    <string name="preview_newcomer">yeni gelen</string>
+    <string name="preview_first">Buraya ilk kez yazıyorum!</string>
+    <string name="preview_deleted">Silinmiş bir mesaj</string>
+    <string name="preview_thanks">teşekkürler!</string>
+    <string name="preview_sub">%1$s 12 aydır abone!</string>
+    <string name="favorites">Favoriler</string>
+    <string name="twitch_follows">Twitch takipleri</string>
+    <string name="favorites_empty">Yer işaretine eklediğin kanallar burada görünür</string>
+    <string name="favorite_add">Favorilere ekle</string>
+    <string name="favorite_remove">Favorilerden çıkar</string>
+    <string name="favorite_remove_confirm">%1$s favorilerden çıkarılsın mı?</string>
+    <string name="remove">Çıkar</string>
+    <string name="follow_sync_hint_login">Twitch\'te takip ettiğin kanalları da görmek için giriş yap</string>
+    <string name="follow_sync_hint_client_id">Twitch\'te takip ettiğin kanalları da görmek için Client ID ekle</string>
+    <string name="schedule">Program</string>
+    <string name="schedule_this_week">Bu hafta</string>
+    <string name="schedule_prev_week">Önceki hafta</string>
+    <string name="schedule_next_week">Sonraki hafta</string>
+    <string name="schedule_week_empty">Bu hafta yayın yok</string>
+
+    <string name="gestures">Hareketler</string>
+    <string name="gesture_tap">Tek dokunma</string>
+    <string name="gesture_double_tap">Çift dokunma</string>
+    <string name="gesture_hold">Basılı tutma</string>
+    <string name="gesture_swipe">Kaydırma</string>
+    <string name="gesture_controls">Kontrolleri göster</string>
+    <string name="gesture_play_pause">Oynat / duraklat</string>
+    <string name="gesture_skip">Geri / ileri atla</string>
+    <string name="gesture_fullscreen">Tam ekran</string>
+    <string name="gesture_skip_seconds">Atlama süresi</string>
+    <string name="gesture_hold_speed_action">Bırakana kadar hızlı oynat</string>
+    <string name="gesture_hold_speed">Basılı tutarken hız</string>
+    <string name="gesture_hold_vod_only">Yalnızca geçmiş yayınlarda çalışır.</string>
+    <string name="gesture_swipe_left">Solda dikey kaydırma</string>
+    <string name="gesture_swipe_right">Sağda dikey kaydırma</string>
+    <string name="brightness">Parlaklık</string>
+    <string name="volume">Ses</string>
+    <string name="gesture_swipe_seek">Yatay kaydırarak ilerle (geçmiş yayınlar)</string>
+    <string name="seconds_short">%1$d\u00A0sn</string>
+
+    <string name="playback_speed">Hız</string>
+    <string name="audio_only">Yalnızca ses</string>
+    <string name="sleep_timer">Uyku zamanlayıcısı</string>
+    <string name="sleep_remaining">%1$s sonra durur</string>
+    <string name="minutes_short">%1$d\u00A0dk</string>
+    <string name="hours_short">%1$d\u00A0sa</string>
+    <string name="background_play">Arka planda oynatma</string>
+    <string name="background_always">Her zaman</string>
+    <string name="background_headphones">Yalnızca kulaklık takılıyken</string>
+    <string name="notification_channel_playback">Oynatma</string>
+    <string name="muted_segment">Twitch tarafından susturulan bölüm</string>
+    <string name="muted_skip_question">Sessize alınan bölüm atlansın mı?</string>
+    <string name="skip">Atla</string>
+    <string name="summary_gestures">Çift dokunma %1$d\u00A0sn · basılı tutma %2$s×</string>
+
+    <string name="region_ja">Japonya</string>
+    <string name="region_ko">Güney Kore</string>
+    <string name="region_pt">Brezilya</string>
+    <string name="region_de">Almanya</string>
+    <string name="region_fr">Fransa</string>
+    <string name="region_ru">Rusya</string>
+    <string name="region_es">İspanyolca konuşanlar</string>
+    <string name="region_it">İtalya</string>
+    <string name="region_tr">Türkiye</string>
+    <string name="region_en">İngilizce konuşanlar</string>
+    <string name="stream_order">Popüler sırası</string>
+    <string name="stream_order_reset">Sırayı sıfırla</string>
+    <string name="block_words">Kelimeler</string>
+    <string name="block_users">Kullanıcılar</string>
+    <string name="block_add">Ekle</string>
+    <string name="block_word_hint">Engellenecek kelime</string>
+    <string name="block_user_hint">Kullanıcı adı</string>
+    <string name="block_empty">Henüz bir şey yok</string>
+</resources>

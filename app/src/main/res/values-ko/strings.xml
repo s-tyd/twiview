@@ -1,0 +1,297 @@
+<resources>
+    <string name="back">뒤로</string>
+    <string name="close">닫기</string>
+    <string name="clear">지우기</string>
+    <string name="retry">다시 시도</string>
+    <string name="reload">새로고침</string>
+    <string name="settings">설정</string>
+    <string name="save">저장</string>
+    <string name="cancel">취소</string>
+    <string name="auto">자동</string>
+    <string name="off">끔</string>
+    <string name="none">없음</string>
+    <string name="all">전체</string>
+    <string name="size_small">작게</string>
+    <string name="size_medium">보통</string>
+    <string name="size_large">크게</string>
+    <string name="size_xlarge">아주 크게</string>
+    <string name="error_load_failed">불러오지 못했습니다. 연결을 확인해 주세요.</string>
+    <string name="error_empty_response">Twitch에서 빈 응답을 보냈습니다</string>
+    <string name="error_playback_token">이 방송에 접근할 수 없습니다</string>
+    <string name="error_vod_unplayable">이 동영상은 재생할 수 없습니다</string>
+
+    <string name="tab_following">팔로잉</string>
+    <string name="tab_popular">인기</string>
+    <string name="tab_categories">카테고리</string>
+    <string name="tab_search">검색</string>
+    <string name="follow_link_banner">Twitch 팔로우를 여기서 보려면 연동하세요</string>
+    <string name="follow_link">연동</string>
+    <string name="login_with_twitch">Twitch로 로그인</string>
+    <string name="add_client_id">Client ID 추가</string>
+    <string name="follow_empty">아직 팔로우한 채널이 없습니다</string>
+    <string name="section_live_count">생방송  %1$d</string>
+    <string name="section_offline_count">오프라인  %1$d</string>
+    <string name="streams_empty">생방송 중인 채널이 없습니다</string>
+    <string name="search_placeholder">채널 및 카테고리 검색</string>
+    <string name="section_channels">채널</string>
+    <string name="search_no_results">결과 없음</string>
+    <string name="sort_viewers">시청자 많은 순</string>
+    <string name="sort_newest">최근 시작한 순</string>
+    <string name="sort_longest">방송 시간 긴 순</string>
+    <string name="sort_name">이름순</string>
+    <string name="sort_followed">팔로우한 순</string>
+
+    <string name="channel_not_found">채널을 찾을 수 없습니다</string>
+    <string name="last_live">마지막 방송 %1$s</string>
+    <string name="section_live">생방송</string>
+    <string name="section_videos">지난 방송</string>
+    <string name="videos_empty">지난 방송이 없습니다</string>
+    <plurals name="views_short">
+        <item quantity="other">%1$s회</item>
+    </plurals>
+
+    <plurals name="views">
+        <item quantity="other">조회수 %1$s회</item>
+    </plurals>
+
+    <string name="offline">오프라인</string>
+    <string name="videos">동영상</string>
+    <string name="rewind_10">10초 뒤로</string>
+    <string name="forward_10">10초 앞으로</string>
+    <string name="play">재생</string>
+    <string name="pause">일시정지</string>
+    <string name="chat">채팅</string>
+    <string name="pip">PIP 모드</string>
+    <string name="toggle_fullscreen">전체 화면 전환</string>
+    <string name="tab_playback">재생</string>
+    <string name="tab_chat">채팅</string>
+    <string name="quality">화질</string>
+    <string name="latency">지연 시간</string>
+    <string name="latency_now">라이브보다 %1$.1f초 늦음</string>
+    <string name="latency_measuring">지연 시간 측정 중…</string>
+    <string name="latency_low">낮은 지연</string>
+    <string name="latency_normal">표준</string>
+    <string name="latency_stable">안정</string>
+
+    <string name="chat_connecting">채팅에 연결 중…</string>
+    <string name="chat_jump_latest">최신  ↓ %1$d</string>
+    <string name="chat_deleted">&lt;삭제된 메시지&gt;</string>
+    <string name="ng_user_button">차단</string>
+    <string name="user_messages_count">이 사용자의 메시지  %1$d</string>
+    <string name="chat_send_placeholder">메시지 보내기</string>
+    <string name="connecting">연결 중…</string>
+    <string name="send">보내기</string>
+    <string name="channel_points">채널 포인트</string>
+    <string name="points_earned_here">이번 시청 +%1$s</string>
+    <plurals name="points_bonus_count">
+        <item quantity="other"> · 보너스 %1$d회 획득</item>
+    </plurals>
+
+    <string name="danmaku">흐르는 채팅</string>
+    <string name="danmaku_speed">속도</string>
+    <string name="speed_slow">느리게</string>
+    <string name="speed_normal">보통</string>
+    <string name="speed_fast">빠르게</string>
+    <string name="text_size">글자 크기</string>
+    <string name="pixels">미세 조정</string>
+    <string name="opacity">불투명도</string>
+    <string name="danmaku_area">표시 영역</string>
+    <string name="area_full">전체 화면</string>
+    <string name="area_top_half">위쪽 절반</string>
+    <string name="area_top_third">위쪽 1/3</string>
+    <string name="danmaku_max">동시 표시 수</string>
+    <string name="danmaku_limit">제한</string>
+    <string name="danmaku_fit">화면에 맞춤</string>
+    <string name="danmaku_unlimited">제한 없음</string>
+    <string name="danmaku_show_name">사용자 이름 표시</string>
+    <string name="danmaku_name_color">채팅 이름 색상 사용</string>
+    <string name="danmaku_hide_emoji">이모지가 있는 메시지 제외</string>
+    <string name="danmaku_viewer">시청자%1$d</string>
+    <string-array name="danmaku_samples">
+        <item>가즈아아아</item>
+        <item>ㅋㅋㅋㅋ</item>
+        <item>나이스!</item>
+        <item>GG</item>
+        <item>방금 봤어??</item>
+        <item>클립 각</item>
+        <item>말도 안 돼</item>
+        <item>ㄹㅇ</item>
+        <item>귀여워</item>
+        <item>KEKW</item>
+        <item>o7</item>
+        <item>너무 세다</item>
+        <item>이 부분 최고</item>
+        <item>다시 보여줘</item>
+        <item>처음 왔어요!</item>
+        <item>ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ</item>
+        <item>왔다아아아</item>
+        <item>미쳤다</item>
+        <item>나이스~</item>
+        <item>저게 맞네?</item>
+        <item>천재 아님?</item>
+        <item>\???</item>
+        <item>와아아아아아아</item>
+        <item>할 수 있다</item>
+        <item>와 실화냐</item>
+        <item>오늘 방송 레전드</item>
+        <item>이거 떡상각</item>
+        <item>누가 클립 좀</item>
+        <item>눈물 나</item>
+    </string-array>
+
+    <string name="account">계정</string>
+    <string name="not_logged_in">로그인 안 됨</string>
+    <string name="chat_display">채팅</string>
+    <string name="summary_text_size">글자 %1$d</string>
+    <string name="summary_no_names">이름 숨김</string>
+    <string name="summary_aligned_names">이름 정렬</string>
+    <string name="summary_danmaku_on">켜짐 · %1$s · %2$d%%</string>
+    <string name="ng">차단 단어 및 사용자</string>
+    <string name="summary_ng">단어 %1$d · 사용자 %2$d</string>
+    <string name="playback">재생</string>
+    <string name="summary_playback">기본 화질 %1$s · 지연 %2$s</string>
+    <string name="about">정보</string>
+    <string name="app_language">언어</string>
+    <string name="app_language_system">기기 기본값</string>
+    <string name="app_language_hint">메뉴와 표시 문구의 언어입니다. 방송 언어 필터는 인기 탭에서 설정하세요.</string>
+
+    <string name="default_quality">기본 화질</string>
+    <string name="default_quality_hint">모바일 데이터에서는 720p 이하를 권장합니다</string>
+    <string name="latency_hint">연결이 불안정하면 낮은 지연에서 끊길 수 있습니다</string>
+
+    <string name="about_unofficial">비공식 Twitch 클라이언트입니다</string>
+
+    <string name="account_scope_full">채팅 · 팔로우 · 구독 혜택</string>
+    <string name="account_scope_no_follows">채팅 · 구독 혜택(팔로우 미연동)</string>
+    <string name="connect_follows">팔로우 연동</string>
+    <string name="log_out">로그아웃</string>
+    <string name="client_id_title">팔로우용 Client ID</string>
+    <string name="client_id_missing">미설정(팔로우 목록에 필요)</string>
+    <string name="client_id_add">추가</string>
+    <string name="client_id_change">변경</string>
+    <string name="client_id_help">Twitch Developer Console에서 앱을 등록하고 발급된 Client ID를 입력하세요. OAuth Redirect URL은 %1$s(으)로 설정하세요.</string>
+    <string name="open_dev_console">Developer Console 열기</string>
+    <string name="client_id_invalid">영문 소문자와 숫자 30자여야 합니다</string>
+
+    <string name="login_title">twitch.tv에 로그인</string>
+    <string name="login_verifying">확인 중…</string>
+    <string name="login_linking_follows">팔로우 연동 중…</string>
+    <string name="login_token_failed">로그인을 확인하지 못했습니다</string>
+
+    <string name="hide_chat_input">채팅 입력창 숨기기</string>
+    <string name="names">이름</string>
+    <string name="name_both">표시 이름(ID)</string>
+    <string name="name_display">표시 이름</string>
+    <string name="name_login">ID</string>
+    <string name="name_hidden">숨김</string>
+    <string name="name_color">색상</string>
+    <string name="name_color_twitch">Twitch 색상</string>
+    <string name="name_color_auto">자동 색상</string>
+    <string name="name_color_uniform">단색</string>
+    <string name="brighten_names">어두운 색 밝게</string>
+    <string name="align_names">이름 정렬</string>
+    <string name="name_width">이름 너비</string>
+    <string name="name_width_value">%1$d자</string>
+    <string name="badges">배지</string>
+    <string name="badges_first">첫 번째만</string>
+    <string name="badges_none">숨기기</string>
+    <string name="appearance">모양</string>
+    <string name="line_spacing">줄 간격</string>
+    <string name="spacing_compact">좁게</string>
+    <string name="spacing_standard">기본</string>
+    <string name="spacing_relaxed">넓게</string>
+    <string name="dividers">구분</string>
+    <string name="dividers_zebra">줄마다 번갈아</string>
+    <string name="dividers_line">선</string>
+    <string name="emotes">이모티콘</string>
+    <string name="emotes_image">이미지</string>
+    <string name="emotes_text">텍스트</string>
+    <string name="content">내용</string>
+    <string name="timestamps">타임스탬프</string>
+    <string name="deleted_messages">삭제된 메시지</string>
+    <string name="deleted_strike">취소선</string>
+    <string name="deleted_hide">숨기기</string>
+    <string name="system_notices">구독 및 레이드 알림</string>
+    <string name="highlights">강조</string>
+    <string name="highlight_first">첫 채팅 강조</string>
+    <string name="highlight_mentions">\@멘션 강조</string>
+
+    <string name="preview_streamer">스트리머</string>
+    <string name="preview_greeting">안녕하세요 여러분 Kappa</string>
+    <string name="preview_long_name">이름이 정말 아주 긴 시청자</string>
+    <string name="preview_long_text">이름이 길어도 메시지가 정렬됩니다</string>
+    <string name="preview_mention">\@%1$s 이거 봐요</string>
+    <string name="preview_newcomer">뉴비</string>
+    <string name="preview_first">여기서 처음 채팅해요!</string>
+    <string name="preview_deleted">삭제된 메시지입니다</string>
+    <string name="preview_thanks">고마워요!</string>
+    <string name="preview_sub">%1$s 님이 12개월 동안 구독했습니다!</string>
+    <string name="favorites">즐겨찾기</string>
+    <string name="twitch_follows">Twitch 팔로우</string>
+    <string name="favorites_empty">북마크한 채널이 여기에 표시됩니다</string>
+    <string name="favorite_add">즐겨찾기에 추가</string>
+    <string name="favorite_remove">즐겨찾기에서 삭제</string>
+    <string name="favorite_remove_confirm">%1$s 님을 즐겨찾기에서 삭제할까요?</string>
+    <string name="remove">삭제</string>
+    <string name="follow_sync_hint_login">로그인하면 Twitch에서 팔로우한 채널도 볼 수 있습니다</string>
+    <string name="follow_sync_hint_client_id">Client ID를 추가하면 Twitch에서 팔로우한 채널도 볼 수 있습니다</string>
+    <string name="schedule">일정</string>
+    <string name="schedule_this_week">이번 주</string>
+    <string name="schedule_prev_week">지난주</string>
+    <string name="schedule_next_week">다음 주</string>
+    <string name="schedule_week_empty">이 주에는 방송이 없습니다</string>
+
+    <string name="gestures">제스처</string>
+    <string name="gesture_tap">한 번 탭</string>
+    <string name="gesture_double_tap">두 번 탭</string>
+    <string name="gesture_hold">길게 누르기</string>
+    <string name="gesture_swipe">스와이프</string>
+    <string name="gesture_controls">컨트롤 표시</string>
+    <string name="gesture_play_pause">재생 / 일시정지</string>
+    <string name="gesture_skip">좌우로 건너뛰기</string>
+    <string name="gesture_fullscreen">전체 화면 전환</string>
+    <string name="gesture_skip_seconds">건너뛸 시간</string>
+    <string name="gesture_hold_speed_action">빨리 재생(손을 떼면 복귀)</string>
+    <string name="gesture_hold_speed">길게 누를 때 속도</string>
+    <string name="gesture_hold_vod_only">지난 방송에서만 작동해요.</string>
+    <string name="gesture_swipe_left">왼쪽 위아래 스와이프</string>
+    <string name="gesture_swipe_right">오른쪽 위아래 스와이프</string>
+    <string name="brightness">밝기</string>
+    <string name="volume">볼륨</string>
+    <string name="gesture_swipe_seek">가로 스와이프로 탐색(지난 방송)</string>
+    <string name="seconds_short">%1$d초</string>
+
+    <string name="playback_speed">재생 속도</string>
+    <string name="audio_only">오디오만</string>
+    <string name="sleep_timer">취침 타이머</string>
+    <string name="sleep_remaining">%1$s 후 정지</string>
+    <string name="minutes_short">%1$d분</string>
+    <string name="hours_short">%1$d시간</string>
+    <string name="background_play">백그라운드 재생</string>
+    <string name="background_always">항상</string>
+    <string name="background_headphones">헤드폰 연결 시에만</string>
+    <string name="notification_channel_playback">재생</string>
+    <string name="muted_segment">Twitch 음소거 구간</string>
+    <string name="muted_skip_question">음소거 구간을 건너뛸까요?</string>
+    <string name="skip">건너뛰기</string>
+    <string name="summary_gestures">두 번 탭 %1$d초 · 길게 누르기 %2$s×</string>
+
+    <string name="region_ja">일본</string>
+    <string name="region_ko">한국</string>
+    <string name="region_pt">브라질</string>
+    <string name="region_de">독일</string>
+    <string name="region_fr">프랑스</string>
+    <string name="region_ru">러시아</string>
+    <string name="region_es">스페인어권</string>
+    <string name="region_it">이탈리아</string>
+    <string name="region_tr">튀르키예</string>
+    <string name="region_en">영어권</string>
+    <string name="stream_order">인기 탭 순서</string>
+    <string name="stream_order_reset">기본 순서로</string>
+    <string name="block_words">단어</string>
+    <string name="block_users">사용자</string>
+    <string name="block_add">추가</string>
+    <string name="block_word_hint">차단할 단어</string>
+    <string name="block_user_hint">사용자 이름</string>
+    <string name="block_empty">아직 없어요</string>
+</resources>
